@@ -16,7 +16,7 @@ print(df)
 # Create output directory
 os.makedirs('output', exist_ok=True)
 
-# Save it in different formats
+# Save as different formats
 # 1. JSON format (good for web APIs)
 df.to_json('output/sales_data.json', orient='records', indent=2)
 
